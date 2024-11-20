@@ -7,4 +7,4 @@ app.listen(3000, () => { //3000 é uma porta padrão de servidor local
 
 app.get("/api", (req, res) => { //A rota '/api' do tipo 'get' vai pegar algo do servidor após uma requisição (req) e responder (res)
     res.status(200).send("Boas vindas à imersão!"); //Nossa resposta tem um status 200 (um dos códigos HTTP>CÓDIGO NUMÉRICO ASSOCIADO A TEXTO), esse código significa OK
-});//A resposta da nossa requisição é 200 e junto com esse status de resposta vem o dado 'send'
+});//A resposta da nossa requisição é 200 e junto desse status de resposta vem o dado 'send'
